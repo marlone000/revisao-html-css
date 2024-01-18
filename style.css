@@ -1,3 +1,6 @@
+.corpo{
+    background-color: floralwhite;
+}
 .botao {
     border: 1px solid #999;
     height: 26px;
@@ -14,7 +17,20 @@
     color: #999;
 }
 .digo{
-    color: #999;
+    color: #000;
     border:2px solid ;
     width: 300px;
+}
+.ul{
+    background-color: antiquewhite;
+    border: 1px solid #999;
+}
+.caixa{
+    background-color: mediumpurple;
+    width: 250px;
+}
+.caixa-com-padding{
+    background-color: lightblue;
+    padding: 0 25px;
+    width: 250px;
 }
