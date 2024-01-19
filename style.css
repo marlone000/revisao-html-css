@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .corpo{
     background-color: floralwhite;
 }
@@ -11,7 +14,7 @@
     border: 1px solid #999;
     height: 26px;
     padding: 5px 15px;
-    width: 80px;    
+    width: 90px;    
 }
 .texto{
     color: #999;
@@ -24,6 +27,7 @@
 .ul{
     background-color: antiquewhite;
     border: 1px solid #999;
+    list-style: none;
 }
 .caixa{
     background-color: mediumpurple;
@@ -33,4 +37,79 @@
     background-color: lightblue;
     padding: 0 25px;
     width: 250px;
+}
+.faixa {
+    border: 1px solid #000;
+    height: 100px;
+    margin: 40px auto;
+    width: 400px;
+}
+.faixa h1{
+    background-color: #990000;
+    color: #FFF;
+    font-size: 1.2em;
+    left: -10px;
+    padding: 5px 0;
+    position: relative;
+    text-align: center;
+    width: 420px;
+    margin-top: 13px;
+}
+.faixa h1::before{
+    border-color:transparent #7C0000 #7C0000 transparent;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: -10px;
+}
+.faixa h1::after{
+    border-color:transparent transparent #7C0000 #7C0000 ;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    right: 0;
+    position: absolute;
+    top: -10px;
+}
+.ajuda{
+    background-color: #F1EFE6;
+    border: 1px solid #D3CDAE;
+    font-size: 0.9em;
+    padding: 10px;
+    position: relative;
+    width: 300px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.ajuda::before{
+border-color: transparent #D3CDAE transparent transparent;
+border-style: solid;
+border-width: 14px;
+content: "";
+left: -28px;
+margin-top: -14px;
+position: absolute;
+top: 50%;
+}
+.local{
+    background-color: #e6cb55;
+    border: 1px solid #D3CDAE;
+    font-size: 0.9em;
+    padding: 10px;
+    position: relative;
+    width: 300px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.local::before{
+    border-color: transparent #e6cb55 transparent transparent;
+    border-style: solid;
+    border-width: 14px;
+    content: "";
+    left: -28px;
+    margin-top: -14px;
+    position: absolute;
+    top: 50%;
 }
